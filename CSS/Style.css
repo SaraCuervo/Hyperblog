@@ -10,9 +10,9 @@ body
 }
 #cabecera 
 {
- background: rgb(69, 20, 73);
+ background: rgb(241, 57, 0);
  box-shadow: 0px 2px 50px 0px rgb(0, 0, 0, 0.5);
- color: rgb(211, 164, 243);
+ color: rgb(129, 8, 8);
  font-weight: bold;
  margin: 0;
  padding: 0.5em;
@@ -46,4 +46,12 @@ font-size: 0.8em ;
 {
     background: white;
     padding: 1em;
+}
+
+#footer
+{
+    background:rgb(170, 35, 35);
+    color: rgb(224, 101, 64);
+    text-align: center;
+    padding:0.5em;
 }
