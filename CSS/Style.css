@@ -1,5 +1,6 @@
 body
 {
+    background: rgb(168, 59, 168);
     color: #333;
     text-align: center;
     font-family: "Georgia";
@@ -7,14 +8,19 @@ body
     margin: 0;
     padding: 0;
 }
-#cabecera
+#cabecera 
 {
- background: rgb(197, 79, 207);
+ background: rgb(69, 20, 73);
  box-shadow: 0px 2px 50px 0px rgb(0, 0, 0, 0.5);
  color: rgb(211, 164, 243);
  font-weight: bold;
  margin: 0;
  padding: 0.5em;
+}
+#cabecera #logo
+{
+ width: 70px;   
+ vertical-align: middle;
 }
 #cabecera #tagline
 {
@@ -38,5 +44,6 @@ font-size: 0.8em ;
 
 #post
 {
+    background: white;
     padding: 1em;
 }
